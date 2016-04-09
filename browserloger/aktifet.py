@@ -1,5 +1,8 @@
 import subprocess
 
+#Browseri açmadan önce aktifleşir.
+#Açık olan browser pencerelerinide kapatır.
+
 
 def aktif():
     output = ""
