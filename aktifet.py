@@ -11,7 +11,7 @@ def aktif():
         if "firefox" in output:
             subprocess.getoutput("killall -9 firefox")
             #Açık olan browser pencerelerini kapatır.
-            from browserlogger.kontrolet import girisYap
+            from kontrolet import girisYap
             
         else:
             pass
